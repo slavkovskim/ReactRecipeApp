@@ -1,0 +1,40 @@
+.App{
+    min-height:100vh;
+    background-image: url(https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png);
+}
+
+.search-form{
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar{
+    width: 50%;
+    border: none;
+    padding: 15px;
+    background: #d1e8f5;
+}
+
+.search-button{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background: #4DC1F9;
+    border-radius: 50%;
+    right: 5px;
+    top: 0px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 80px;
+    font-size: 20px;
+    color: #fff;
+    transition: all 0.8s ease;
+}
+
+.recipes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
